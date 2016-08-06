@@ -1,3 +1,14 @@
+---
+ranks:
+  0: Big Mac
+  1: Frites
+  2: Coca
+roles:
+  Øcram: tank
+  Chahahouwany: heal
+  Yanø: heal
+---
+
 <!-- About Section -->
     <section class="success" id="roster">
         <div class="container">
@@ -9,6 +20,31 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
+
+<table id="roster">
+<tr>
+  <th>Personnage</th>
+  <th>Rôle</th>
+  <th>Rang</th>
+  <th>Haut-faits</th>
+</tr>
+{% for member in site.data.wow-api.members %}
+{% if member.rank <= 2 %}
+<tr>
+  <td><a href="https://eu.battle.net/wow/fr/character/Illidan/{{member.character.name}}/"><img src="http://media.blizzard.com/wow/icons/18/class_{{member.character.class}}.jpg" alt="" />&nbsp;{{ member.character.name }}</a></td>
+  <td>
+    {% if page.roles contains member.character.name %}
+      {{ page.roles[member.character.name] }}
+    {% else %}
+      dps
+    {% endif %}
+  </td>
+  <td>{{ page.ranks[member.rank] }}</td>
+  <td>{{ member.character.achievementPoints }}</td>
+</tr>
+{% endif %}
+{% endfor %}
+</table>
 
                 <!--<div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
