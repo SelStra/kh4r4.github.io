@@ -173,7 +173,7 @@ header .intro-text .skills {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     padding: 100px 0;
 }
 
