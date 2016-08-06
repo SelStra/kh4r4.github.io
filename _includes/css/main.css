@@ -463,9 +463,10 @@ footer .footer-below {
 /* Other tweaks */
 
 .legionCountdown {
-  margin-bottom: 4em;
-  margin-left: auto;
-  margin:right: auto;
+  display: inline-block;
+  width: auto;
+  top: auto;
+  bottom: auto;
 }
 
 table#roster {
