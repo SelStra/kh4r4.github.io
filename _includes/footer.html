@@ -45,3 +45,25 @@
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
+    
+            <script type="text/javascript">
+                        	var clock;
+                        
+                        	$(document).ready(function() {
+                        
+                        		// Grab the current date
+                        		var currentDate = new Date();
+                        
+                        		// Set the date to August 30, 2016
+                        		var pastDate  = new Date("August 30, 2016 00:00:00");
+                        
+                        		// Calculate the difference in seconds between the future and current date
+                        		var diff = pastDate.getTime() / 1000 - currentDate.getTime() / 1000;
+                        
+                        		// Instantiate a coutdown FlipClock
+                        		clock = jQuery('.legionCountdown').FlipClock(diff, {
+                        			clockFace: 'DailyCounter',
+                        			countdown: 'true'
+                        		});
+                        	});
+                        </script>
