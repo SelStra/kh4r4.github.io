@@ -472,15 +472,6 @@ footer .footer-below {
   color: #fff;
 }
 
-table#roster {
-  padding: 0.5em;
-}
-
-table#roster img {
-  display: inline;
-  margin: 0;
-}
-
 .wowhead-tooltip table table tr, .wowhead-tooltip table table td, .wowhead-tooltip table table th{
    background:none;
    border:none;
