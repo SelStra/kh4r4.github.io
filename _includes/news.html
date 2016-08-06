@@ -14,10 +14,10 @@
              {% for post in site.posts %}
             <div class="col-xs-6 portfolio-item">
                 <a href="#">
-                    <a href="/assets/{{ post.img }"><img src="/assets/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}"></a>
+                    <a href="/assets/{{ post.img }}"><img src="/assets/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}"></a>
                 </a>
                 <h3 class="truncate-ellipsis">
-                    <a href="/assets/{{ post.img }">{{ post.title }}</a>
+                    <a href="/assets/{{ post.img }}">{{ post.title }}</a>
                 </h3>
                     <span class="post-date">
                         {% assign m = post.date | date: "%-m" %}
