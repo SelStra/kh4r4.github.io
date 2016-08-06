@@ -81,7 +81,9 @@ hr.star-primary:after {
 
 header {
     height: 100vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     /*background: #{{ site.color.primary }}; */
     background: url("/img/illidan_black.jpg") no-repeat center center fixed;
