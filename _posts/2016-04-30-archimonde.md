@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2016-04-30
-title: On n'a jamais été aussi proche!
+title: Archimonde HM down !
 author: Yanø
 img: paint_archimonde.jpg
 alt: Paint Archimonde
