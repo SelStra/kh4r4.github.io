@@ -52,8 +52,8 @@
   position: relative;
   width: 100%;
   margin: 1em;
-  margin-left:0;
-  margin-right:0;
+  display: inline-block;
+  width: auto;
 }
 
 .flip-clock-wrapper:before,
