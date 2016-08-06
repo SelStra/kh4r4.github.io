@@ -187,6 +187,10 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+section.success > * {
+    color: #fff;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -471,6 +475,8 @@ footer .footer-below {
   margin-right: auto;
   color: #fff;
 }
+
+
 
 .wowhead-tooltip table table tr, .wowhead-tooltip table table td, .wowhead-tooltip table table th{
    background:none;
