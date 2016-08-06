@@ -6,9 +6,9 @@
     {% include header.html %}
     {% include news.html %}
     {% include roster.html %}
-    <!--{% include portfolio_grid.html %}-->
     {% include about.html %}
 
+{% comment %} 
     {% if site.contact == "static" %}
     {% include contact_static.html %}
     {% elsif site.contact == "disqus" %}
@@ -19,6 +19,8 @@
 
     {% include footer.html %}
     {% include modals.html %}
+{% endcomment %}  
+
     {% include js.html %}
     </body>
 </html>
