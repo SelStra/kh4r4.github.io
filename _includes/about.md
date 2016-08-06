@@ -1,19 +1,18 @@
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>À propos</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-             <div class="row">
-                <div class="col-md-6">
-                 <p><strong>2009, la création</strong> : C’est en 2009 pendant le raid ulduar que Alduine et Rangiroa ont créé la guilde “trois nuits par semaine”, une guilde a vocation PVE qui comme son nom ne l’indique pas raidais deux soirs par semaine. Initialement côté alliance sur suramar elle a très vite migrée côté horde. Pour la plupart c’était nos premiers vrais raids sur wow et nous avons appris à jouer à [http://fr.wowhead.com/zone=4273/ulduar](Ulduar). De cette époque il reste Chahahouwany qui jouait Feral (eh oui) Kaiz (lapoutre) qui jouait son démo et Yanø</p>
+<section id="about">
+     <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>À propos</h2>
+                <hr class="star-primary">
+    </div>
+    </div>
+<div class="row">
+<div class="col-md-6">
+<p><strong>2009, la création</strong> : C’est en 2009 pendant le raid ulduar que Alduine et Rangiroa ont créé la guilde “trois nuits par semaine”, une guilde a vocation PVE qui comme son nom ne l’indique pas raidais deux soirs par semaine. Initialement côté alliance sur suramar elle a très vite migrée côté horde. Pour la plupart c’était nos premiers vrais raids sur wow et nous avons appris à jouer à [http://fr.wowhead.com/zone=4273/ulduar](Ulduar). De cette époque il reste Chahahouwany qui jouait Feral (eh oui) Kaiz (lapoutre) qui jouait son démo et Yanø</p>
 <p><strong>EDC construction du roster</strong> : le gros des troupes nous a rejoint pendant EDC avec notament druid qui jouait palaheal ou encore néo et bala, tout les deux palouf. C’est là que nous avons commencé à raid “sérieusement”</p>
 <p><strong>ICC, première perf</strong> : le roster à ICC était très bon, alduine était un super RL, cela nous a permis de tuer LK dans les premières guildes du serveur. Hélas une semaine après le kill de LK Alduine nous a annoncé qu’il stoppait wow. Rangiroa a repris le lead à ce moment là.</p>
 <p><strong>Juillet 2010, migration et rename</strong> : le changement de lead ne s’est pas très bien passé, rangiroa ayant pris le poste par défaut. Durant l’été 2010 la guilde se met en pause mais la plupart des membres avaient encore envie de jouer, Néo et Bala migrent sur Illidan, ils créent une guilde : American Cheeseburger, tout le monde décide de migrer, Yanø prend le lead et øcram le colloc de Néo et Bala nous rejoint.</p>
 <p><strong>Fin LK, une machine bien rodée</strong> : Yanø voulait initialement faire un roster 25 après la migration, c’est dans cette optique que Lothaar et Lokki nous rejoignent mais on se rend vite compte que recruter puis gérer un roster 25 c’est pas pour nous. On part donc sur du 10HM avec de très bon résultat même si on s’arrêtera à la porte de LK HM.</p>
-
 </div>
 <div class="col-md-6">
 <p><strong>Cataclysme, l’apogée</strong> ;) : Tout le monde est très motivé par cata, on attaque vite les raids, cara nous rejoint sur le premier palier et le roster ne bougera quasiment plus jusqu’à la fin de cata, les downs s’enchainent ainsi que les armes légendaires. Super période pour la guilde.</p>
@@ -21,8 +20,7 @@
 <p><strong>Noël 2015, la reprise</strong> : C’est noël et l’alcool aidant Lokki décide de remotiver tout le monde à reprendre, l’alcool aidant toujours, quasiment tout le monde est chaud. La guilde renait. Yanø reprend le lead et des nouveaux viennent nous rejoindre. Les deux cousins de lokki, bicky et mistiik ainsi qu’un pote de cara, reyjka. L’extension est clean…
 Et maintenant, place à Legion!!!</p>
 <p><strong>Hall of fame</strong> : Je n’ai pas pu citer tout le monde dans ce petit texte, et d’ailleurs je me rappelle pas de tout! Toutefois on oubliera pas ceux qui ont participé à l’aventure comme Brar, Monf, Elorius, Dexnett, Carthae, Battlestar et j’en oublie plein!</p>
-                 </div>   
-            </div>
-           
-      </div>
-    </section>
+</div>   
+</div>
+</div>
+</section>
