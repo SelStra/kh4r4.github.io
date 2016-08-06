@@ -37,7 +37,8 @@
 
 /* Main */
 .flip-clock-wrapper {
-  font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
+  font: normal 12px Montserrat, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
   -webkit-user-select: none; }
 
 .flip-clock-meridium {
