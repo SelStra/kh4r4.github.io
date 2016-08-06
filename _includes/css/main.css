@@ -463,7 +463,7 @@ footer .footer-below {
 
 .legionCountdown {
   display: inline-block;
-  height: 100%;
+  width: auto;
   text-align:center;
 }
 
