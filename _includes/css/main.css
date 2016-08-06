@@ -81,9 +81,6 @@ hr.star-primary:after {
 
 header {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #fff;
     /*background: #{{ site.color.primary }}; */
     background: url("/img/illidan_black.jpg") no-repeat center center fixed;
@@ -466,9 +463,8 @@ footer .footer-below {
 
 .legionCountdown {
   display: inline-block;
-  width: auto;
-  top: auto;
-  bottom: auto;
+  height: 100%;
+  text-align:center;
 }
 
 table#roster {
