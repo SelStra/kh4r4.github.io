@@ -205,6 +205,10 @@
   color: white;
   text-shadow: none; }
 
+.flip-clock-label {
+    display:none
+}
+
 .flip-clock-divider.minutes .flip-clock-label {
   right: -88px; }
 
