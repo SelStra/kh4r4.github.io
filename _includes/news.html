@@ -1,5 +1,5 @@
 
-    <!-- News Grid Section -->
+    <!-- News section -->
     <section id="news">
         <div class="container">
             <div class="row">
@@ -9,18 +9,57 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
-                {% endfor %}
+               <div class="posts">
+                    {% for post in paginator.posts %}
+                    <div class="post">
+                        <h1 class="post-title">
+                        <a href="{{ site.baseurl }}{{ post.url | remove_first: '/'}}">
+                            {{ post.title }}</a>
+                        </h1>
+                    
+                <span class="post-date">
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%-d" }}
+                {% case m %}
+                  {% when '1' %}Janvier
+                  {% when '2' %}Février
+                  {% when '3' %}Mars
+                  {% when '4' %}Avril
+                  {% when '5' %}Mai
+                  {% when '6' %}Juin
+                  {% when '7' %}Juillet
+                  {% when '8' %}Août
+                  {% when '9' %}Septembre
+                  {% when '10' %}Octobre
+                  {% when '11' %}Novembre
+                  {% when '12' %}Décembre
+                {% endcase %}
+                {{ post.date | date: "%Y" }} par {{ post.author }}
+                </span>
+                
+                    {{ post.content }}
+                  </div>
+                  {% endfor %}
+                </div>
+                
+                {% if paginator.next_page %}
+                <div class="pagination">
+                  {% if paginator.next_page %}
+                    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+                  {% else %}
+                    <span class="pagination-item older">Older</span>
+                  {% endif %}
+                  {% if paginator.previous_page %}
+                    {% if paginator.page == 2 %}
+                      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+                    {% else %}
+                      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+                    {% endif %}
+                  {% else %}
+                    <span class="pagination-item newer">Newer</span>
+                  {% endif %}
+                </div>
+                {% endif %}
             </div>
         </div>
     </section>
