@@ -6,8 +6,7 @@
     {% include header.html %}
     {% include news.html %}
     {% include roster.html %}
-    {% capture my-include %}{% include about.md %}{% endcapture %}
-    {{ my-include | markdownify }}
+    {% include about.html %}
 
 {% comment %} 
     {% if site.contact == "static" %}
