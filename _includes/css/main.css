@@ -84,7 +84,7 @@ header {
     text-align: center;
     color: #fff;
     /*background: #{{ site.color.primary }}; */
-    background: url("/img/illidan-black.jpg") no-repeat center center fixed;
+    background: url("/img/illidan_black.jpg") no-repeat center center fixed;
 }
 
 header .container {
