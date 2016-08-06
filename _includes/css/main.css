@@ -138,6 +138,8 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        padding-left: 43px;
+        background: url("/assets/logo_amcheese.png") left no-repeat;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -146,7 +148,10 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        padding-left: 53px;
+        background: url("/assets/logo_amcheese_small.png") left no-repeat;
     }
+    
 }
 
 .navbar {
