@@ -1,11 +1,11 @@
 ---
-layout: post
-title: Archimonde HM down
+layout: default
+modal-id: 2
+date: 2016-04-30
 author: Yanø
-published: true
----
-
-C'est bon tout le monde peut link sa "curve" maintenant !
+img: paint_archimonde.jpg
+alt: Paint Archimonde
+description: C'est bon tout le monde peut link sa "curve" maintenant !
 
 \- Hi, [Une longueur d’avance : la Porte noire](http://fr.wowhead.com/achievement=10044/une-longueur-d-avance-la-porte-noire)  
 \- and ring ?  
@@ -13,4 +13,9 @@ C'est bon tout le monde peut link sa "curve" maintenant !
 \- Good, be patient while forming solid group.
 
 <a href="/assets/paint_archimonde.jpg">![Paint Légion](/assets/paint_archimonde.jpg)</a>
+
+---
+
+
+
 
