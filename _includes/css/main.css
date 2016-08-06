@@ -80,6 +80,7 @@ hr.star-primary:after {
 }
 
 header {
+    height: 100%;
     text-align: center;
     color: #fff;
     background: #{{ site.color.primary }};
@@ -454,3 +455,30 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+
+
+/* Other tweaks */
+
+.legionCountdown {
+  margin-bottom: 4em;
+  margin-left: auto;
+  margin:right: auto;
+}
+
+table#roster {
+  padding: 0.5em;
+}
+
+table#roster img {
+  display: inline;
+  margin: 0;
+}
+
+.wowhead-tooltip table table tr, .wowhead-tooltip table table td, .wowhead-tooltip table table th{
+   background:none;
+   border:none;
+}
+
+
