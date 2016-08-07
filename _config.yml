@@ -5,6 +5,13 @@ url: https://kh4r4.github.io
 description: "Guilde PVE World of Warcraft, Serveur Illidan-EU"
 meta_author: kh4r4
 
+gems: [jekyll_get]
+  
+jekyll_get:
+  data: wow-api
+  json: 'https://eu.api.battle.net/wow/guild/Illidan/American%20Cheeseburger?fields=members&locale=fr_FR&apikey=98n7ukhbynu5zj97eptmhbrxadzbwv2f'
+  cache: true
+
 # Google webmaster tools
 google_verify:
 
