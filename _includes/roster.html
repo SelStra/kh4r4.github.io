@@ -20,7 +20,8 @@
 {% for member in site.data.wow-api.members %}
 {% if member.rank <= 2 %}
 <tr>
-  <td><a href="https://eu.battle.net/wow/fr/character/Illidan/{{member.character.name}}/"><img src="http://media.blizzard.com/wow/icons/18/class_{{member.character.class}}.jpg" alt="" />&nbsp;<b>{{ member.character.name }}</b></a></td>
+    <td><img src="http://render-api-eu.worldofwarcraft.com/static-render/eu/{{ member.character.thumbnail }}"></td>
+  <td><a href="https://eu.battle.net/wow/fr/character/Illidan/{{ member.character.name }}/"><img src="http://media.blizzard.com/wow/icons/18/class_{{ member.character.class }}.jpg" alt="" />&nbsp;<b>{{ member.character.name }}</b></a></td>
   <td>
     {% if page.roles contains member.character.name %}
       {{ page.roles[member.character.name] }}
@@ -34,7 +35,11 @@
 {% endif %}
 {% endfor %}
 </table>
-
+<div class="alert alert-warning" role="warning">
+  <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+  <span class="sr-only">Attention :</span>
+Les DH ne sont pas encore inclus ! Désolé Mistiik et Reykja !
+</div></p>
                 <!--<div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
                         <i class="fa fa-star"></i> Download Theme
