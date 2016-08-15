@@ -501,10 +501,10 @@ footer .footer-below {
     text-overflow: ellipsis;
 }
 
-th.sorted.ascending:after {
+th.headerSortUp:after {
     content: "  \2191";
 }
 
-th.sorted.descending:after {
+th.headerSortDown:after {
     content: " \2193";
 }
