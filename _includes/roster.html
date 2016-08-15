@@ -33,7 +33,7 @@
       dps
     {% endif %}
   </td>
-  <td>{{ page.ranks[member.rank] }}</td>
+  <td><img src="/assets/{{ page.ranks-icons[member.rank] }}">{{ page.ranks[member.rank] }}</td>
   <td>{{ member.character.achievementPoints }}</td>
 </tr>
 {% endif %}
