@@ -32,10 +32,9 @@
     {% else %}
       {{ assign role = dps }}
     {% endif %}
-    <img src="/assets/role_{{ role }}">
-    {{ page.roles-names[role] }}
+    <img src="/assets/role_{{ role }}.png">&nbsp;{{ page.roles-names[role] }}
   </td>
-  <td><img src="/assets/{{ page.ranks-icons[member.rank] }}">{{ page.ranks[member.rank] }}</td>
+  <td><img src="/assets/{{ page.ranks-icons[member.rank] }}">&nbsp;{{ page.ranks[member.rank] }}</td>
   <td>{{ member.character.achievementPoints }}</td>
 </tr>
 {% endif %}
