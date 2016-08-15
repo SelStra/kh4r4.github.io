@@ -28,10 +28,12 @@
   <td><a href="https://eu.battle.net/wow/fr/character/Illidan/{{ member.character.name }}/"><img src="http://media.blizzard.com/wow/icons/18/class_{{ member.character.class }}.jpg" alt="" />&nbsp;<b>{{ member.character.name }}</b></a></td>
   <td>
     {% if page.roles contains member.character.name %}
-      {{ page.roles[member.character.name] }}
+      {{ assign role = page.roles[member.character.name] }}
     {% else %}
-      dps
+      {{ assign role = dps }}
     {% endif %}
+    <img src="/assets/role_{{ role }}">
+    {{ page.roles-names[role] }}
   </td>
   <td><img src="/assets/{{ page.ranks-icons[member.rank] }}">{{ page.ranks[member.rank] }}</td>
   <td>{{ member.character.achievementPoints }}</td>
