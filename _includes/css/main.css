@@ -189,7 +189,7 @@ section h2 {
 
 section.success  {
     color: #fff;
-    background: 000;
+    background: #000;
     /*background: #{{ site.color.primary }};*/
 }
 
