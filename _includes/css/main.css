@@ -188,8 +188,9 @@ section h2 {
 }
 
 section.success  {
-    color: #000;
-    background: #{{ site.color.primary }};
+    color: #fff;
+    background: 000;
+    /*background: #{{ site.color.primary }};*/
 }
 
 @media(max-width:767px) {
