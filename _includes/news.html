@@ -16,11 +16,7 @@
                  <h3 class="truncate-ellipsis">
                     <a href="/assets/{{ post.img }}">{{ post.title }}</a>
                 </h3>
-                <a href="#">
-                    <a href="/assets/{{ post.img }}"><img src="/assets/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}"></a>
-                </a>
-               
-                    <span class="post-date">
+                <span class="post-date">
                         {% assign m = post.date | date: "%-m" %}
                         {{ post.date | date: "%-d" }}
                         {% case m %}
@@ -39,7 +35,10 @@
                         {% endcase %}
                         {{ post.date | date: "%Y" }} par {{ post.author }}
                     </span>
-                    <div>{{ post.content }}</div>
+                <a href="#">
+                    <a href="/assets/{{ post.img }}"><img src="/assets/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}"></a>
+                </a>
+                <div>{{ post.content }}</div>
             </div>
             {% endfor %}
         </div>
