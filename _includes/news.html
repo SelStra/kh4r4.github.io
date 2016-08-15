@@ -15,8 +15,7 @@
                  <hr class="star-primary">
                  <h3 class="truncate-ellipsis">
                     <a href="/assets/{{ post.img }}">{{ post.title }}</a>
-                </h3>
-                <span class="post-date">
+                </h3><span class="post-date">
                         {% assign m = post.date | date: "%-m" %}
                         {{ post.date | date: "%-d" }}
                         {% case m %}
@@ -42,11 +41,5 @@
             </div>
             {% endfor %}
         </div>
-        
-        
-        
-              
-                
-
         </div>
     </section>
