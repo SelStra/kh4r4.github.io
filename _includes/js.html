@@ -42,10 +42,14 @@
     
     <!-- jquery-tablesort -->
     <!-- https://github.com/kylefox/jquery-tablesort -->
-    <script src="{{ "/js/jquery.tablesort.js" }}"></script>
+    <script src="{{ "/js/jquery.tablesorter.js" }}"></script>
     
     <script type="text/javascript">
-        $('table.sortable').tablesort().data('tablesort').sort($("th.default-sort"),'desc');
+        $(document).ready(function() 
+           { 
+               $("#myRoster").tablesorter( {sortList: [[0,0], [1,0]]} ); 
+           } 
+    );
     </script>  
     
     <!-- Wowhead -->
