@@ -6,11 +6,6 @@ description: "Guilde PVE World of Warcraft, Serveur Illidan-EU"
 meta_author: kh4r4
 
 gems: [jekyll_get]
-  
-jekyll_get:
-  data: wow-api
-  json: 'https://eu.api.battle.net/wow/guild/Illidan/American%20Cheeseburger?fields=members&locale=fr_FR&apikey=98n7ukhbynu5zj97eptmhbrxadzbwv2f'
-  cache: true
 
 # Google webmaster tools
 google_verify:
@@ -30,7 +25,7 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 888888 #18bc9c #80B3FF
+  primary: 1b1b1b #18bc9c #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
