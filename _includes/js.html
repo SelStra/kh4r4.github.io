@@ -44,6 +44,10 @@
     <!-- https://github.com/kylefox/jquery-tablesort -->
     <script src="{{ "/js/jquery.tablesort.js" }}"></script>
     
+    <script type="text/javascript">
+        $('table.sortable').tablesort().data('tablesort').sort($("th.default-sort"));
+    </script>  
+    
     <!-- Wowhead -->
     <script src="{{ "//wow.zamimg.com/widgets/power.js" }}"></script>
     <script>var wowhead_tooltips = { "colorlinks": true, "iconizelinks": true, "renamelinks": true }</script>
