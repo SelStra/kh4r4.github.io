@@ -30,7 +30,7 @@
     {% if page.roles contains member.character.name %}
       {% assign role = page.roles[member.character.name] %}
     {% else %}
-      {% assign role = dps %}
+      {% assign role = "dps" %}
     {% endif %}
     <img src="/assets/role_{{ role }}.png">&nbsp;{{ page.roles-names[role] }}
   </td>
