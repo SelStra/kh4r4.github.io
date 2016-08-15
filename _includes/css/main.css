@@ -500,3 +500,11 @@ footer .footer-below {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+th.sorted.ascending:after {
+    content: "  \2191";
+}
+
+th.sorted.descending:after {
+    content: " \2193";
+}
