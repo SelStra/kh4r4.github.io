@@ -12,16 +12,17 @@
 
 <table class="table table-bordered">
 <tr>
-  <th></th>
+  <!--<th></th>-->
   <th><b>Personnage</b></th>
   <th>Rôle</th>
   <th>Rang</th>
   <th>Haut-faits</th>
 </tr>
+{{ site.data.wow-api.members.all | sort: 'name' }}
 {% for member in site.data.wow-api.members %}
 {% if member.rank <= 2 %}
 <tr>
-    <td><img src="http://render-api-eu.worldofwarcraft.com/static-render/eu/{{ member.character.thumbnail }}"></td>
+    <!--<td><img src="http://render-api-eu.worldofwarcraft.com/static-render/eu/{{ member.character.thumbnail }}"></td>-->
   <td><a href="https://eu.battle.net/wow/fr/character/Illidan/{{ member.character.name }}/"><img src="http://media.blizzard.com/wow/icons/18/class_{{ member.character.class }}.jpg" alt="" />&nbsp;<b>{{ member.character.name }}</b></a></td>
   <td>
     {% if page.roles contains member.character.name %}
