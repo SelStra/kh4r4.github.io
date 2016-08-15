@@ -25,7 +25,7 @@
 {% if member.rank <= 2 %}
 <tr>
     <!--<td><img src="http://render-api-eu.worldofwarcraft.com/static-render/eu/{{ member.character.thumbnail }}"></td>-->
-  <td><a href="https://eu.battle.net/wow/fr/character/Illidan/{{ member.character.name }}/"><img src="http://media.blizzard.com/wow/icons/18/class_{{ member.character.class }}.jpg" alt="" />&nbsp;<b>{{ member.character.name }}</b></a></td>
+  <td class="wow-class-{{ member.character.class }}"><img src="http://media.blizzard.com/wow/icons/18/class_{{ member.character.class }}.jpg" alt="" />&nbsp;<a href="https://eu.battle.net/wow/fr/character/Illidan/{{ member.character.name }}/"><b>{{ member.character.name }}</b></a></td>
   <td>
     {% if page.roles contains member.character.name %}
       {% assign role = page.roles[member.character.name] %}
