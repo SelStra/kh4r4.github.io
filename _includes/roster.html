@@ -18,7 +18,6 @@
   <th>Rang</th>
   <th>Haut-faits</th>
 </tr>
-{{ site.data.wow-api.members.all | sort: 'name' }}
 {% for member in site.data.wow-api.members %}
 {% if member.rank <= 2 %}
 <tr>
