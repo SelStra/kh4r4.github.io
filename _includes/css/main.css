@@ -64,7 +64,7 @@ hr.star-light {
 hr.star-light:after {
     color: #fff;
     /* background-color: #{{ site.color.primary }} */;
-    background-color: #000;
+    background-color: #262626;
 }
 
 hr.star-primary {
@@ -190,7 +190,7 @@ section h2 {
 
 section.success  {
     color: #fff;
-    background: #000;
+    background: #262626;
     /*background: #{{ site.color.primary }};*/
 }
 
